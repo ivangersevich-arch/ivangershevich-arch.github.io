@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Иван Гершевич — Junior QA Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="#top"><b>&gt;_</b> QA.ENGINEER</a>
+      <ul class="menu">
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#stack">Стек</a></li>
+        <li><a href="#auto">Автотесты</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Junior Manual QA · Web / Mobile / API</p>
+        <h1>Иван Гершевич —<br>QA <span>Engineer</span></h1>
+        <p class="lead">Тестирую веб- и мобильные приложения: от требований и тест-дизайна до регресса, работы с логами и автотестов. Разбираюсь в микросервисах, базах данных и CI/CD — нахожу баги там, где их не видно с фронта.</p>
+        <div class="hero-actions">
+          <a class="btn btn-acid" href="#contact">Связаться</a>
+          <a class="btn btn-line" href="#skills">Смотреть навыки</a>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <span class="photo-corner" aria-hidden="true"></span>
+        <img src="me.png" alt="Фото: Иван Гершевич, Junior QA Engineer">
+        <span class="photo-tag">status: open to work</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="wrap stats-grid">
+      <div class="stat"><b>40+</b><span>инструментов в стеке</span></div>
+      <div class="stat"><b>3</b><span>направления: Web · Mobile · API</span></div>
+      <div class="stat"><b>2</b><span>репозитория автотестов</span></div>
+      <div class="stat"><b>SQL</b><span>PostgreSQL · MongoDB · Redis</span></div>
+    </div>
+  </div>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">01</span>
+        <h2>Что я умею</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Тестирование API</h3>
+          <ul>
+            <li>Ручное тестирование <b>REST API</b> нескольких микросервисов</li>
+            <li><b>Postman</b>: коллекции, переменные, cURL, простые автотесты на JavaScript, Environment для переключения окружений</li>
+            <li>Документация в <b>Swagger</b>, работа с <b>WSDL и SOAP</b></li>
+            <li>Опыт работы с <b>GraphQL, gRPC и WebSocket</b></li>
+            <li>Создавал <b>Mock Server</b> для тестирования фронта, когда бэк ещё не готов</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Web и клиент</h3>
+          <ul>
+            <li>Клиент-серверная архитектура и принципы работы <b>HTTP</b></li>
+            <li><b>DevTools</b>: Network, Application — Cookie, Local/Session Storage, кэш браузера</li>
+            <li>Сниффер <b>Charles</b>: подмена контента и проверка обработки ошибок сервера на клиенте</li>
+            <li>Функциональное тестирование <b>авторизации</b> (сессии)</li>
+            <li><b>Figma</b> как источник документации: проверка вёрстки и стилей</li>
+            <li><b>Яндекс Метрика</b> для QA: анализ популярных браузеров, устройств и ОС</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Базы данных и SQL</h3>
+          <ul>
+            <li>SQL-запросы средней сложности: <b>SELECT, JOIN, GROUP BY</b>, агрегатные функции</li>
+            <li>Реляционные БД: <b>PostgreSQL</b>; нереляционные: <b>MongoDB, Redis</b></li>
+            <li>Применял SQL для тестирования логики фичей: «Покупка аватара» и «Ачивки»</li>
+            <li>Работа с <b>серверным кэшом</b> в Redis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Тест-дизайн и документация</h3>
+          <ul>
+            <li>Применение техник <b>тест-дизайна</b> на практике</li>
+            <li>Тестирование <b>требований</b> к будущей фиче</li>
+            <li>Создание тестовой документации <b>с нуля</b></li>
+            <li>Тест-кейсы в TMS <b>Test IT</b> и тест-сьюты для регресса</li>
+            <li>Чек-листы в виде <b>Mindmap в Miro</b> — <a href="#">пример</a></li>
+            <li>Баг-репорты в <b>Яндекс Трекере</b>; стек Atlassian: Jira и Confluence</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Микросервисы и мониторинг</h3>
+          <ul>
+            <li>Асинхронное взаимодействие микросервисов через брокер <b>Kafka</b></li>
+            <li>Интеграционное тестирование: трассировки в <b>Jaeger</b></li>
+            <li>Логи: <b>Kibana и Sentry</b>; дашборды в <b>Grafana</b> — технические и продуктовые</li>
+            <li><b>Linux</b>: базовые команды, анализ логов на сервере в реальном времени</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Мобильное тестирование</h3>
+          <ul>
+            <li>Запуск приложения на эмуляторе <b>Android Studio</b>, анализ логов в <b>Logcat</b></li>
+            <li><b>Firebase</b>: количество Crash и ANR ошибок и их логи</li>
+            <li>Работа с релизной и дебажной сборкой приложения</li>
+            <li>Тестирование <b>PUSH-сообщений</b> и функционала <b>диплинков</b></li>
+          </ul>
+        </div>
+
+        <div class="skill-card" id="auto">
+          <h3>Автоматизация</h3>
+          <ul>
+            <li>Покрыл часть регресса сайта <b>e2e-автотестами</b> на JavaScript + <b>Cypress</b> — <a href="#">репозиторий</a></li>
+            <li>Покрыл часть регресса API автотестами на <b>Python: Pytest + Requests</b> — <a href="#">репозиторий</a></li>
+            <li>Работа с <b>Git</b>, создание репозитория — <a href="#">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>CI/CD и процессы</h3>
+          <ul>
+            <li><b>GitLab CI/CD</b>: запускал сборку в PROD и STAGE</li>
+            <li>Применяю <b>GPT и нейросети</b>, чтобы ускорять рутинные задачи в тестировании</li>
+            <li>Регрессионное, интеграционное и <b>smoke-тестирование</b></li>
+            <li>Работа в команде по <b>Agile</b></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">QA ENGINEER · MANUAL · API · MOBILE ·&nbsp;</div>
+
+  <section id="stack">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">02</span>
+        <h2>Ключевые навыки и стек</h2>
+      </div>
+
+      <p class="tags-label">// Топ навыков для Junior Manual QA</p>
+      <div class="tags">
+        <span class="tag">SQL</span>
+        <span class="tag">Функциональное тестирование</span>
+        <span class="tag">Ручное тестирование</span>
+        <span class="tag">Postman</span>
+        <span class="tag">Linux</span>
+        <span class="tag">Регрессионное тестирование</span>
+        <span class="tag">Git</span>
+        <span class="tag">Python</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Интеграционное тестирование</span>
+        <span class="tag">REST API</span>
+        <span class="tag">Тестирование API</span>
+        <span class="tag">Test case</span>
+        <span class="tag">Jira</span>
+        <span class="tag">Swagger</span>
+        <span class="tag">Apache Kafka</span>
+        <span class="tag">HTTP</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">Confluence</span>
+        <span class="tag">JSON</span>
+        <span class="tag">SOAP</span>
+        <span class="tag">Pytest</span>
+        <span class="tag">Android</span>
+        <span class="tag">Составление тест-кейсов</span>
+        <span class="tag">Составление баг-репортов</span>
+        <span class="tag">Кроссбраузерное тестирование</span>
+        <span class="tag">Agile</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Smoke-тестирование</span>
+        <span class="tag">Тестирование UI</span>
+        <span class="tag">XML</span>
+        <span class="tag">Работа в команде</span>
+        <span class="tag">Аналитическое мышление</span>
+      </div>
+
+      <p class="tags-label">// Инструменты</p>
+      <div class="tags">
+        <span class="tag">DevTools</span><span class="tag">REST API</span><span class="tag">Postman</span>
+        <span class="tag">Swagger</span><span class="tag">SOAP UI</span><span class="tag">Figma</span>
+        <span class="tag">Miro</span><span class="tag">Яндекс Метрика</span><span class="tag">Test IT</span>
+        <span class="tag">Яндекс Трекер</span><span class="tag">Kibana</span><span class="tag">Sentry</span>
+        <span class="tag">Grafana</span><span class="tag">DBeaver</span><span class="tag">PostgreSQL</span>
+        <span class="tag">MongoDB</span><span class="tag">Redis</span><span class="tag">Jaeger</span>
+        <span class="tag">Metabase</span><span class="tag">Compass</span><span class="tag">Charles</span>
+        <span class="tag">Apache Kafka</span><span class="tag">Linux</span><span class="tag">Git</span>
+        <span class="tag">GitLab</span><span class="tag">CI/CD</span><span class="tag">Mock</span>
+        <span class="tag">Android Studio</span><span class="tag">Firebase</span><span class="tag">Cypress</span>
+        <span class="tag">JavaScript</span><span class="tag">Pytest</span><span class="tag">Requests</span>
+        <span class="tag">Python</span><span class="tag">GraphQL</span><span class="tag">gRPC</span>
+        <span class="tag">WebSocket</span><span class="tag">Apollo</span><span class="tag">Kreya</span>
+        <span class="tag">Insomnia</span><span class="tag">Jira</span><span class="tag">Confluence</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="sec-head" style="justify-content:center;">
+        <span class="num">03</span>
+        <h2>Контакты</h2>
+      </div>
+      <p>Открыт к предложениям на позицию Junior QA Engineer. Напишите — отвечу быстро, резюме и репозитории пришлю сразу.</p>
+      <div class="contact-links">
+        <a class="btn btn-acid" href="mailto:i273929@yandex.ru">i273929@yandex.ru</a>
+        <a class="btn btn-line" href="https://t.me/ivangershevich">Telegram: @ivangershevich</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> · Иван Гершевич · Junior QA Engineer</span>
+    <span><b>status:</b> tests passed · 0 bugs found on this page (пока что)</span>
+  </div>
+</footer>
+
+<script src="js.js"></script>
+</body>
+</html>
